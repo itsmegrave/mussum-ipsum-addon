@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Mussum Ipsum",
+  "version": "1.0.0",
+  "description": "Generates Mussum Ipsum text.",
+  "icons": {
+    "16": "icons/mi-16.png",
+    "32": "icons/mi-32.png",
+    "48": "icons/mi-48.png",
+    "96": "icons/mi-96.png",
+    "128": "icons/mi-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/mi-16.png",
+      "32":"icons/mi-32.png"
+    },
+    "default_title": "Mussum Ipsum",
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "https://mipsum.herokuapp.com/*",
+    "webRequest"
+  ]
+}
