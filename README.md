@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/samuelgrave/mussum-ipsum-addon/badge)](https://www.codefactor.io/repository/github/samuelgrave/mussum-ipsum-addon)
+
 # Mussum Ipsum add-on
 
 Client for Mussum Ipsum as (for now) Firefox add-on.
