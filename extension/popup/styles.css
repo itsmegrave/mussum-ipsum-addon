@@ -56,6 +56,11 @@ h1 {
     border: 1px solid #7ec81a;;
 }
 
+.btn.btn-primary:disabled {
+    opacity: 0.65; 
+    cursor: not-allowed;
+  }
+
 .bottom {
     height: 230px;
 }
