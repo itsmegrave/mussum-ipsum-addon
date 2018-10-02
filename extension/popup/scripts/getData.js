@@ -17,8 +17,14 @@ return {
     httpGetAsync(url, getData.fillOutput);
   },
   fillOutput: function (response) {
-    const {paragrafos} = JSON.parse(response);
-    document.getElementById('output').value = paragrafos;
+    let {paragrafos} = JSON.parse(response);
+    paragrafos = '<p>' + paragrafos;
+    let lastNL = paragrafos.lastIndexOf('\n');
+    paragrafos = (paragrafos.substring(0, lastNL) + '</p>').replace('\n', '</p><p>');
+
+    let doc = new DOMParser().parseFromString(paragrafos, 'text/html');
+
+    document.getElementById('output').value = doc.documentElement.textContent;
   }
 };
 }();
