@@ -1,11 +1,21 @@
 window.onload = function () {
-    const cpBtn = document.getElementById('copy');
-    document.getElementById('generate').onclick = function () {
+    const copyBtn = document.getElementById('copy');
+    const genBtn = document.getElementById('generate');
+    genBtn.onclick = function () {
         getData.load();
-        cpBtn.innerText = "Copy";
+        copyBtn.innerText = "Cópia";
     };
-    document.getElementById('copy').onclick = function () {
-        copyToClipboard(document.getElementById('output').value);
-        cpBtn.innerText = "Copied";
+    copyBtn.onclick = function () {
+        copy();
+        copyBtn.innerText = "Copiado";
     };
+};
+
+function copy() {
+    const textarea = document.getElementById('output');
+    textarea.select();
+    document.execCommand("copy");
+    textarea.selectionEnd = textarea.selectionStart;
+    textarea.blur();
+    window.getSelection().removeAllRanges();
 };

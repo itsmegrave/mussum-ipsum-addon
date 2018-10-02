@@ -37,6 +37,10 @@ h1 {
     color: #444;
 }
 
+input#quantity {
+    max-width: 50px;
+}
+
 .btn {
     padding: 8px 20px;
     cursor: pointer;
@@ -60,6 +64,7 @@ h1 {
 .btn.btn-action:disabled {
     background-color: #888888;
     border: 1px solid #999999;
+    cursor: not-allowed;
     color: #000;
 }
 
@@ -70,8 +75,8 @@ h1 {
 }
 
 .btn.btn-action {
-    background-color: #98F348;
-    border: 1px solid #999999;
+    background-color: #98D348;
+    border: 1px solid #98D348;
     color: #000;
 }
 
