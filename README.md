@@ -7,7 +7,7 @@ Client for Mussum Ipsum as (for now) Firefox add-on.
 ## Next steps
 
 * Add support to Chrome;
-* Add copy to clipboard functionality;
+~~* Add copy to clipboard functionality;~~
 * Add insert into page functionality;
 * Add support to Microsoft Edge;
 * Improves UI;
