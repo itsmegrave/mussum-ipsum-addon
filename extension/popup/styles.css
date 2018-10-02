@@ -37,16 +37,11 @@ h1 {
     color: #444;
 }
 
-#quantity {
-    max-width: 50px;
-}
-
 .btn {
     padding: 8px 20px;
     cursor: pointer;
     font-size: 16px;
     min-width: 100px;
-    max-width: 10em;
     margin: 10px 0;
 }
 
@@ -57,32 +52,8 @@ h1 {
 }
 
 .btn.btn-primary:hover {
-    background-color: #7ec81a;
-    border: 1px solid #7ec81a;
-}
-
-.btn.btn-action:disabled {
-    background-color: #888888;
-    border: 1px solid #999999;
-    cursor: not-allowed;
-    color: #000;
-}
-
-.btn.btn-action:disabled:hover {
-    background-color: #ee1020;
-    border: 1px solid #999999;
-    color: #000;
-}
-
-.btn.btn-action {
-    background-color: #98D348;
-    border: 1px solid #98D348;
-    color: #000;
-}
-
-.btn.btn-action:hover {
-    background-color: #7ee81a;
-    border: 1px solid #7ec81a;
+    background-color: #7ec81a;;
+    border: 1px solid #7ec81a;;
 }
 
 .bottom {
