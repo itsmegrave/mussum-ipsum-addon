@@ -37,7 +37,7 @@ h1 {
     color: #444;
 }
 
-input#quantity {
+#quantity {
     max-width: 50px;
 }
 

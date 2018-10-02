@@ -18,4 +18,4 @@ function copy() {
     textarea.selectionEnd = textarea.selectionStart;
     textarea.blur();
     window.getSelection().removeAllRanges();
-};
+}
