@@ -25,6 +25,8 @@ return {
     let doc = new DOMParser().parseFromString(paragrafos, 'text/html');
 
     document.getElementById('output').value = doc.documentElement.textContent;
+	
+	new ClipboardJS('.btn');
   }
 };
 }();
